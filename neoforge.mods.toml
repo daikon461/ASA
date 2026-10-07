@@ -1,0 +1,21 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="MIT"
+[[mods]]
+modId="armorsets"
+version="1.7.0"
+displayName="L2H Armor Set Addon"
+authors="OpenAI / user project"
+description='''High-power physical and magic armor set bonuses for a L2Hostility modpack.'''
+[[dependencies.armorsets]]
+modId="neoforge"
+type="required"
+versionRange="[21.1.0,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.armorsets]]
+modId="minecraft"
+type="required"
+versionRange="[1.21.1,1.21.2)"
+ordering="NONE"
+side="BOTH"
